@@ -1,0 +1,21 @@
+# 忽略密钥和环境变量
+.env
+.env.local
+
+# 忽略 Python 缓存
+__pycache__/
+*.py[cod]
+
+# 忽略虚拟环境
+.venv/
+venv/
+env/
+.poetry/
+
+# 忽略数据库和临时文件
+.chroma_db/
+temp_code.py
+*.log
+
+# 系统文件
+.DS_Store
